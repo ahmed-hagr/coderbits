@@ -1,0 +1,211 @@
+*{
+   font-family: Poppins, Helvetica, arial, sans-serif ;
+    
+}
+.home{
+    background-image: url(../images/cover.jpg);
+    background-size:100% 100%;
+    height:100%;
+    
+}
+.home .overlay{
+    background-color: rgba(236, 51, 55 ,0.7);
+    height: 100%;
+}
+.navbar{
+    background-color: #000 !important
+}
+.navbar.scrolled {
+  background-color: rgba(0,0,0,0.4) !important;
+  transition: background-color 200ms linear;
+}
+.navbar .logo{
+    width: 60px;
+    
+}
+.r-side a {
+    color: #fff !important;
+    margin:0  15px;
+    font-size: 16px;
+    line-height: 20px
+}
+.active a{
+    color: #ec3237!important
+}
+
+.r-side a:hover{
+       color: #ec3237!important;
+    
+ }
+.home .caption{
+    padding-top: 15%
+}
+.caption h3, .caption p {
+    font-size: 50px;
+    color: #ffffff;
+    box-sizing: border-box
+}
+.caption p {
+    font-size: 20px;
+}
+.caption-btn{
+    padding: 10 50;
+}
+.caption-btn a{
+    color: #fff;
+    font font-size: 25pxl;
+    text-decoration: none;
+}
+.caption-btn:hover{
+        color:#ec3337 !important
+}
+.caption-btn:hover a{
+    color: #ec3237!important
+}
+.caption-animation{
+    animation: moving  3s infinite ;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    transition: all 2s;
+    
+}
+.caption-animation a{
+    font-size: 40;
+    color: #fff
+}
+@keyframes moving{
+    10%{
+         bottom: 2px;
+            
+    }
+    20%{
+        bottom: 4px;
+    }
+    30%{
+        bottom: 6px;
+    }
+    40%{
+        bottom: 8px;
+    }
+50%{
+        bottom: 10px;
+    }
+    60%{
+        top: 10px;
+    }
+    70%{
+        top: 8px;
+    }
+    80%{
+        top: 6px;
+    }
+    90%{
+        top: 4px;
+    }
+    100%{
+        top: 2px;
+    }
+}
+.carolina-profile img{
+box-sizing: border-box;    
+} 
+.about-carolina h1{
+    font-size: 30;
+    padding-bottom: 5px
+}
+.about-carolina h2{
+    font-size: 20px
+}
+.heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: inherit;
+    color: inherit;
+    line-height: 38.5px;
+    padding-bottom: 15px
+}
+.progress-contents h5{
+    font-size: 16;
+    padding-top: 5
+        
+}
+.progress{
+    height: 13px
+}
+.what-i-do, .PORTOFOLIO{
+    background-color: #f5f5f5;
+    
+    
+}
+.what-i-do-content{
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 30px 0 30px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: all 1s
+        
+}
+.what-i-do-content h5{
+    font-weight: 600;
+    padding: 15px 0
+}
+.what-i-do-content:hover h5{
+    color: #ec3237;
+    }
+.what-i-do-content p ,.caption-what p{
+    color: #777777;
+    font-size: 17px;
+    line-height: 25.6px
+        
+}
+.btn-moving{
+    background-color: #ec3237
+}
+.btn-moving:hover{
+    background-color: #c62d32
+}
+.btn-moving a{
+    color: #fff;
+    text-decoration: none
+}
+.project-counters{
+  background-image: url(../images/project-counter.jpg);
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.project-counters-content{
+    border: 1px solid#444444;
+  }
+.PORTOFOLIO a{
+    background-color: transparent!important;
+    margin-right: 15px;
+    color: #000!important
+}
+.PORTOFOLIO a:focus{
+    background-color: #ec3237!important;
+    color: #fff!important;
+    
+}
+.PORTOFOLIO a:hover{
+    outline-width: thin;
+    outline-style: inset;
+    outline-color: #ec3237
+}
+  .testimonial{
+  background-image: url(../images/client-testimonial.jpg);
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.testimonial-content {
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0 30;
+        }
